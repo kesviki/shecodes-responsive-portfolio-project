@@ -100,6 +100,12 @@ p {
     text-decoration: none;
 }
 
+.btn-branding:hover {
+    color: var(--branding-color);
+    background-color: white;
+    border-color: var(--branding-color);
+}
+
 .btn-branding-outline {
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
@@ -110,8 +116,20 @@ p {
     text-decoration: none;
 }
 
+.btn-branding-outline:hover {
+    color: white;
+    background-color: var(--branding-color);
+}
+
 .project-description {
     padding: 120px 60px;
+}
+
+.navigation {
+    border-right-width: 50px;
+    border-left-width:50px;
+    border-color: white;
+    border-style: solid;
 }
 
 .logo {
@@ -120,10 +138,11 @@ p {
 
 nav {
     padding: 20px 0;
+    background-color: white;
 }
 
 nav ul {
-    padding: 0;
+    padding: none;
     margin: 0;
 }
 
@@ -167,14 +186,14 @@ footer .contact-box .btn {
 
 footer .email-link {
     text-decoration: none;
-    color: black;
+    color: var(--branding-color);
     font-size: 24px;
     display: block;
     text-align: center;
 }
 
 footer .email-link:hover {
-    color: var(--branding-color);
+    text-decoration: underline;
 }
 
 footer .social-links a {
@@ -190,6 +209,24 @@ footer .social-links a {
 footer .social-links a:hover {
     color: white;
     background-color: var(--branding-color);
+}
+
+.contact-information a {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
+.contact-information a:hover {
+    text-decoration: underline;
+}
+
+footer .open-source-link {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
+footer .open-source-link:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 960px) {
