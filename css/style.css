@@ -127,7 +127,7 @@ p {
 
 .navigation {
     border-right-width: 50px;
-    border-left-width:50px;
+    border-left-width: 50px;
     border-color: white;
     border-style: solid;
 }
@@ -248,5 +248,9 @@ footer .open-source-link:hover {
     }
     nav a {
         font-size: 14px;
+    }
+    .navigation {
+        border-right-width: 25px;
+        border-left-width: 25px; 
     }
 }
